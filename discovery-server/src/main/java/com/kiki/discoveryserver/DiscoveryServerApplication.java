@@ -8,7 +8,6 @@ import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
 @EnableEurekaServer
-//@EnableDiscoveryClient
 @PropertySource("classpath:application.properties")
 public class DiscoveryServerApplication {
 
